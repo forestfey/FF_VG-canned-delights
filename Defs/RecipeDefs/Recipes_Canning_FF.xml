@@ -127,9 +127,6 @@
 	    <li>PickledVeg</li>
 	    <li>RawPotatoes</li>
 	  </thingDefs>
-      <exceptedCategories>
-        <li>EggsFertilized</li>
-      </exceptedCategories>
     </defaultIngredientFilter>
 	<products>
 	  <CannedFiete>5</CannedFiete>

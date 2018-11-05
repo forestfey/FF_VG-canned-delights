@@ -15,11 +15,11 @@
       <DeteriorationRate>0.25</DeteriorationRate>
       <MarketValue>20</MarketValue>
       <Mass>0.4</Mass>
+	  <Nutrition>0.7</Nutrition>
     </statBases>
     <ingestible>
       <preferability>MealFine</preferability>
    		<tasteThought>AteFineMeal</tasteThought>
-      <nutrition>0.7</nutrition>
          <ingestEffect>EatVegetarian</ingestEffect>
          <ingestSound>Meal_Eat</ingestSound>
       <outcomeDoers>
@@ -30,7 +30,7 @@
       </outcomeDoers>
     </ingestible>
     <thingCategories>
-      <li>FoodMeals</li>
+      <li>FineMeals</li>
     </thingCategories>
   </ThingDef>
 
@@ -52,11 +52,11 @@
       <Flammability>1.0</Flammability>
       <DeteriorationRate>10</DeteriorationRate>
       <Mass>0.4</Mass>
+	  <Nutrition>1.00</Nutrition>
     </statBases>
     <ingestible>
 	<preferability>MealFine</preferability>
 			<tasteThought>AteFineMeal</tasteThought>
-			<nutrition>1.00</nutrition>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>Meal_Eat</ingestSound>
 	  <outcomeDoers>
@@ -67,7 +67,7 @@
       </outcomeDoers>
     </ingestible>
     <thingCategories>
-      <li>FoodMeals</li>
+      <li>FineMeals</li>
     </thingCategories>
   </ThingDef>
 
@@ -89,12 +89,13 @@
       <Flammability>1.0</Flammability>
       <DeteriorationRate>10</DeteriorationRate>
       <Mass>0.4</Mass>
+	  <Nutrition>0.9</Nutrition>
     </statBases>
     <ingestible>
 	<preferability>MealFine</preferability>
 	<tasteThought>AteFineMeal</tasteThought>
-      <nutrition>0.9</nutrition>
-	  <joy>0.2</joy>
+	<joy>0.1</joy>
+	 <joyKind>Gluttonous</joyKind>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>Meal_Eat</ingestSound>
 	  <outcomeDoers>
@@ -105,7 +106,7 @@
       </outcomeDoers>
     </ingestible>
     <thingCategories>
-      <li>FoodMeals</li>
+      <li>FineMeals</li>
     </thingCategories>
   </ThingDef>
 
