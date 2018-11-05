@@ -50,11 +50,8 @@
         <li>AllowRotten</li>
       </specialFiltersToDisallow>
       </fixedIngredientFilter>
-	  <skillRequirements>
-			<li>
-				<skill>Cooking</skill>
-				<minLevel>6</minLevel>
-			</li>
+	  	<skillRequirements>
+			<Cooking>6</Cooking>
 		</skillRequirements>
 	<workSkill>Cooking</workSkill>
 	<recipeUsers>
@@ -137,11 +134,8 @@
 	<products>
 	  <CannedFiete>5</CannedFiete>
 	</products>
-	<skillRequirements>
-			<li>
-				<skill>Cooking</skill>
-				<minLevel>6</minLevel>
-			</li>
+		<skillRequirements>
+			<Cooking>6</Cooking>
 		</skillRequirements>
    	<workSkill>Cooking</workSkill>
 	<recipeUsers>
@@ -179,9 +173,7 @@
 	  <li>
 	    <filter>
 	      <thingDefs>
-	        <li>soymilk</li>
-		   <li>Milk</li>
-	        <li>coconutmilk</li>				
+		   <li>Milk</li>				
 	      </thingDefs>
 	    </filter>
 	    <count>4</count>
@@ -199,9 +191,7 @@
 	  <thingDefs>
 	    <li>Sugar</li>
 	    <li>RawRice</li>
-		<li>soymilk</li> 
 	    <li>Milk</li>
-        <li>coconutmilk</li>
 	  </thingDefs>
 	  <categories>
 		<li>FruitFoodRaw</li>
@@ -213,11 +203,8 @@
 	<products>
 	  <CannedPudding>5</CannedPudding>
 	</products>
-	<skillRequirements>
-			<li>
-				<skill>Cooking</skill>
-				<minLevel>6</minLevel>
-			</li>
+		<skillRequirements>
+			<Cooking>6</Cooking>
 		</skillRequirements>
 	<workSkill>Cooking</workSkill>
 	<recipeUsers>
