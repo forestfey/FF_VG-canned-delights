@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<RecipeDef>
+	<defName>CanBeans</defName>
+	<label>can baked beans</label>
+	<description>Preserve baked beans in a can to prevent spoiling.</description>
+	<jobString>Canning food.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<workAmount>1500</workAmount>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>          
+	<allowMixingIngredients>true</allowMixingIngredients>
+    <ingredients>
+       	<li>
+            <filter>
+               <thingDefs>
+                  <li>Sugar</li>
+               </thingDefs>
+            </filter>
+            <count>4</count>
+        </li>
+			<li>
+            <filter>
+               <thingDefs>
+                  <li>RawTomatoes</li>
+               </thingDefs>
+            </filter>
+            <count>4</count>
+			</li>
+				<li>
+				<filter>
+				  <thingDefs>
+					<li>Rawbean</li>
+				  </thingDefs>
+				</filter>
+				<count>10</count>
+				</li>
+	</ingredients>
+	<products>
+	  <MealCannedBeans>5</MealCannedBeans>
+	</products>
+     <fixedIngredientFilter>
+         <thingDefs>
+            <li>Sugar</li>
+		 <li>Rawbean</li>
+            <li>RawTomatoes</li>
+         </thingDefs>
+			<specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+      </fixedIngredientFilter>
+	  <skillRequirements>
+			<li>
+				<skill>Cooking</skill>
+				<minLevel>6</minLevel>
+			</li>
+		</skillRequirements>
+	<workSkill>Cooking</workSkill>
+	<recipeUsers>
+         <li>CanningFactory</li>
+     </recipeUsers>
+</RecipeDef>
+
+<RecipeDef>
+	<defName>CanFiete</defName>
+	<label>can lobscouse</label>
+	<description>Preserve a hearty meal in a can to prevent spoiling.</description>
+	<jobString>Canning food.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<workAmount>1500</workAmount>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>          
+	<allowMixingIngredients>true</allowMixingIngredients>
+     <ingredients>
+       	<li>
+            <filter>
+               <thingDefs>
+                  <li>CannedMeat</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+        </li>
+			<li>
+            <filter>
+               <thingDefs>
+                  <li>PickledVeg</li>
+               </thingDefs>
+            </filter>
+            <count>4</count>
+			</li>
+				<li>
+				<filter>
+				  <thingDefs>
+					<li>RawPotatoes</li>
+				  </thingDefs>
+				</filter>
+				<count>10</count>
+				</li>
+				<li>
+	    <filter>
+      <categories>
+  		    <li>EggsUnfertilized</li>
+		    <li>EggsFertilized</li>
+      </categories>
+	    </filter>
+	    <count>1</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+      <categories>
+  		    <li>EggsUnfertilized</li>
+		    <li>EggsFertilized</li>
+      </categories>
+	  <thingDefs>
+	    <li>CannedMeat</li>
+	    <li>PickledVeg</li>
+	    <li>RawPotatoes</li>
+	  </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+  		    <li>EggsUnfertilized</li>
+      </categories>
+	 <thingDefs>
+	    <li>CannedMeat</li>
+	    <li>PickledVeg</li>
+	    <li>RawPotatoes</li>
+	  </thingDefs>
+      <exceptedCategories>
+        <li>EggsFertilized</li>
+      </exceptedCategories>
+    </defaultIngredientFilter>
+	<products>
+	  <CannedFiete>5</CannedFiete>
+	</products>
+	<skillRequirements>
+			<li>
+				<skill>Cooking</skill>
+				<minLevel>6</minLevel>
+			</li>
+		</skillRequirements>
+   	<workSkill>Cooking</workSkill>
+	<recipeUsers>
+         <li>CanningFactory</li>
+     </recipeUsers>
+</RecipeDef>
+
+<RecipeDef>
+	<defName>CanPudding</defName>
+	<label>can rice pudding</label>
+	<description>Preserve rice pudding with fruit in a can to prevent spoiling.</description>
+	<jobString>Canning food.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<workAmount>1500</workAmount>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>          
+	<allowMixingIngredients>true</allowMixingIngredients>
+    <ingredients>
+	  <li>
+	    <filter>
+	      <thingDefs>
+	        <li>RawRice</li>
+	      </thingDefs>
+	    </filter>
+	    <count>10</count>
+	  </li>
+	<li>
+	    <filter>
+	      <thingDefs>
+	        <li>Sugar</li>
+	      </thingDefs>
+	    </filter>
+	    <count>4</count>
+	  </li>
+	  <li>
+	    <filter>
+	      <thingDefs>
+	        <li>soymilk</li>
+		   <li>Milk</li>
+	        <li>coconutmilk</li>				
+	      </thingDefs>
+	    </filter>
+	    <count>4</count>
+	  </li>
+	<li>
+		<filter>
+			<categories>
+				<li>FruitFoodRaw</li>
+			</categories>
+		</filter>
+	    <count>4</count>
+     </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+	    <li>Sugar</li>
+	    <li>RawRice</li>
+		<li>soymilk</li> 
+	    <li>Milk</li>
+        <li>coconutmilk</li>
+	  </thingDefs>
+	  <categories>
+		<li>FruitFoodRaw</li>
+	  </categories>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+	  	</fixedIngredientFilter>
+	<products>
+	  <CannedPudding>5</CannedPudding>
+	</products>
+	<skillRequirements>
+			<li>
+				<skill>Cooking</skill>
+				<minLevel>6</minLevel>
+			</li>
+		</skillRequirements>
+	<workSkill>Cooking</workSkill>
+	<recipeUsers>
+         <li>CanningFactory</li>
+     </recipeUsers>
+</RecipeDef>
+
+</Defs>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ThingDefs>
+   
+  <ThingDef ParentName="VG_MealBase">
+    <defName>MealCannedBeans</defName>
+    <label>canned baked beans</label>
+    <description>Baked beans preserved in cans to prevent spoilage. Passed down from Old Earth descendants of the Hanz-family, the basic recipe hasn't changed much over the millenia and still enjoys great popularity all over the galaxy.</description>
+    <stackLimit>75</stackLimit>
+    <graphicData>
+      <texPath>Things/Item/HANZbeans</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <MarketValue>20</MarketValue>
+      <Mass>0.4</Mass>
+    </statBases>
+    <ingestible>
+      <preferability>MealFine</preferability>
+   		<tasteThought>AteFineMeal</tasteThought>
+      <nutrition>0.7</nutrition>
+         <ingestEffect>EatVegetarian</ingestEffect>
+         <ingestSound>Meal_Eat</ingestSound>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>HedBeans</hediffDef>
+          <severity>0.25</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <thingCategories>
+      <li>FoodMeals</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="VG_MealBase">
+    <defName>CannedFiete</defName>
+    <label>canned lobscouse</label>
+    <description>A hearty meal covering a savory rainbow of taste. Supposedly invented by sailors recycling their left-overs. Classically featuring a fried egg and pickled gherkin as topping, the squeaky pink colour of the mushy gloop stems from the beetroot that is mixed with potatoes and corned beef. As questionable as the meal looks, it fills satisfyingly. Fiete Hanz-approved!</description>
+    <graphicData>
+      <texPath>Things/Item/fieteslabskaus</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>75</stackLimit>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+		<socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>25</MarketValue>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>10</DeteriorationRate>
+      <Mass>0.4</Mass>
+    </statBases>
+    <ingestible>
+	<preferability>MealFine</preferability>
+			<tasteThought>AteFineMeal</tasteThought>
+			<nutrition>1.00</nutrition>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+	  <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>HedLabskaus</hediffDef>
+          <severity>0.25</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <thingCategories>
+      <li>FoodMeals</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="VG_MealBase">
+    <defName>CannedPudding</defName>
+    <label>canned rice pudding</label>
+    <description>A sweet meal made from rice cooked with milk and topped with stewed fruit. As long as you don't burn the milk, there's not much you can do wrong with this ancient recipe, but it's not easy to get the texture just right.</description>
+    <graphicData>
+      <texPath>Things/Item/blob_ricepudding</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>75</stackLimit>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+		<socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>20</MarketValue>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>10</DeteriorationRate>
+      <Mass>0.4</Mass>
+    </statBases>
+    <ingestible>
+	<preferability>MealFine</preferability>
+	<tasteThought>AteFineMeal</tasteThought>
+      <nutrition>0.9</nutrition>
+	  <joy>0.2</joy>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+	  <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>HedPudding</hediffDef>
+          <severity>0.25</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <thingCategories>
+      <li>FoodMeals</li>
+    </thingCategories>
+  </ThingDef>
+
+
+</ThingDefs>

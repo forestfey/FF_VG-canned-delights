@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>FF_VG_canned_delights</name>
+  <author>forestfey</author>
+  <targetVersion>0.16.1393</targetVersion>
+  <description>
+	Adds a couple of new meal-recipes to the canning table.
+
+New recipes (defnames not necessarily the same):
+
+- HANZ Baked Beans: See you, space cowboy. Contains beans, tomatoes and sugar.
+
+- Fiete's Labskaus: Looks a bit funny and contains... stuff, quite a lot of it. Very nutritious. NOT VEGAN!
+
+- Mayblob's Ricepudding: Alltime classy. Contains rice, sugar, fruit and milk or suitable substitute. Enjoyable to eat.
+
+-->All recipes have the skill requirement (6) of and satisfy like a Fine Meal, but have variable nutrition-values! There's also some other side-effects, similar to other VG-foods... </description>
+</ModMetaData>
