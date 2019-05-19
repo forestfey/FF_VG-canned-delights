@@ -2,7 +2,9 @@
 <ModMetaData>
   <name>FF_VG_canned_delights</name>
   <author>forestfey</author>
-  <targetVersion>1.0.0</targetVersion>
+  <supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
   <description>
 	Adds a couple of new meal-recipes to the canning table from vegetable garden.
 
