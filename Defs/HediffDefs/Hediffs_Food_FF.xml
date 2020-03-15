@@ -6,6 +6,8 @@
   <HediffDef>
     <defName>HedBeans</defName>
     <label>Ate baked beans</label>
+	<description>You had some baked beans. Howdy, Space-Cowboy!</description>
+	<defaultLabelColor>(0.062, 0.76, 0.05)</defaultLabelColor>
     <initialSeverity>1</initialSeverity>
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
@@ -41,6 +43,8 @@
   <HediffDef>
     <defName>HedPudding</defName>
     <label>Ate rice pudding</label>
+	<description>You ate some tasty rice-pudding. Yum!</description>
+	<defaultLabelColor>(0.062, 0.76, 0.05)</defaultLabelColor>
     <initialSeverity>1</initialSeverity>
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
@@ -70,6 +74,8 @@
  <HediffDef>
     <defName>HedLabskaus</defName>
     <label>Ate lobscouse</label>
+	<description>You just had some hearty lobscouse. Contrary to its looks, it satisfied not only your stomach.</description>
+	<defaultLabelColor>(0.062, 0.76, 0.05)</defaultLabelColor>
     <initialSeverity>1</initialSeverity>
     <hediffClass>HediffWithComps</hediffClass>
     <comps>

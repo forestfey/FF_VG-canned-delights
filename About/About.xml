@@ -3,8 +3,9 @@
   <name>FF_VG_canned_delights</name>
   <author>forestfey</author>
   <supportedVersions>
-		<li>1.0</li>
+		<li>1.1</li>
 	</supportedVersions>
+<packageId>forestfey.CannedDelights</packageId>
   <description>
 	Adds a couple of new meal-recipes to the canning table from vegetable garden.
 
